@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #FF0BB9;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+   
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* gap: 1.5vmin; */
+    margin-top: 20px;
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    margin-right: 5px;
+    border-radius: 5px;
+    border:none;
+    box-shadow: 0 0 1rem;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+}
+#reset{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 1rem ;
+    height: 20px;
+    width: 50px;
+}
+.newbtn{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 1rem ;
+    height: 40px;width: 200px;
+    font-size: 20px;
+    
+}
+#mssg{
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(233, 233, 8);
+   
+}
+#draw{
+    font-size: 100px;
+}
+.msg_container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.hide{
+    display: none;  /* when we want show we can and hide we can */
+}
