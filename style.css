@@ -37,19 +37,21 @@ body{
     border-radius: 5px;
     border: none;
     box-shadow: 0 0 1rem ;
-    height: 20px;
-    width: 50px;
+    height: 40px;
+    width: 100px;
+    font-size:20px ;
 }
 .newbtn{
     border-radius: 5px;
     border: none;
     box-shadow: 0 0 1rem ;
-    height: 40px;width: 200px;
+    height: 40px;
+    width: 200px;
     font-size: 20px;
     
 }
 #mssg{
-    font-size: 100px;
+    font-size: 50px;
     font-weight: bold;
     color: rgb(233, 233, 8);
    
